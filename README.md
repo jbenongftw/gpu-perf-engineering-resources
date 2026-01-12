@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="cover.avif" alt="Performance Engineering for AI Infra" width="100%">
+</p>
+
 # Learning Guide: Performance Engineering for AI Infra
 
 ## Purpose
