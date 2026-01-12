@@ -1,4 +1,4 @@
-# Learning Guide: GPU Performance Engineering for AI Infra
+# Learning Guide: Performance Engineering for AI Infra
 
 ## Purpose
 
