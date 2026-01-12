@@ -145,7 +145,7 @@ Recommended reading order:
 #### Tier 3
 
 - [Matrix Multiplication on Blackwell: Part 1](https://www.modular.com/blog/matrix-multiplication-on-nvidias-blackwell-part-1-introduction) - Modular. tcgen05, TMEM, 2SM MMA programming
-- Blackwell Pipelining with CuTeDSL - Simon Veitner. LinkedIn post on advanced Blackwell kernel patterns
+- [Blackwell Pipelining with CuTeDSL](https://www.linkedin.com/posts/simon-veitner-174a681b6_blackwell-pipelining-with-cutedsl-activity-7409301467171328000-bTPv) - Simon Veitner. Blog post on advanced Blackwell kernel patterns
 
 ## Attention & Memory-Bound Kernels
 
@@ -171,8 +171,8 @@ Recommended reading order:
 #### Tier 3
 
 - [Mastering LLM Techniques: Inference Optimization](https://developer.nvidia.com/blog/mastering-llm-techniques-inference-optimization/) - NVIDIA. Comprehensive guide: GQA, MQA, KV cache compression
-- GQA: Training Generalized Multi-Query Transformer Models - Google. Grouped Query Attention for memory efficiency
-- Multi-Head Latent Attention (MLA) - DeepSeek. Low-rank KV compression, 8x cache reduction
+- [GQA: Training Generalized Multi-Query Transformer Models](https://arxiv.org/abs/2305.13245) - Google. Grouped Query Attention for memory efficiency
+- [Multi-Head Latent Attention (MLA)](https://arxiv.org/abs/2405.04434) - DeepSeek. Low-rank KV compression, 8x cache reduction
 - [A Survey on LLM Acceleration based on KV Cache Management](https://arxiv.org/abs/2412.19442) - Comprehensive taxonomy of KV cache techniques
 
 ## Compiler & DSL Approaches
@@ -241,7 +241,7 @@ Recommended reading order:
 
 - [Developing Triton Kernels on AMD GPUs](https://rocm.blogs.amd.com/artificial-intelligence/triton/README.html) - AMD ROCm Blog. Triton for MI300X
 - [Triton Kernel Optimizations on AMD](https://rocm.blogs.amd.com/software-tools-optimization/kernel-development-optimizations-with-triton-on-/README.html) - AMD ROCm Blog. Performance tuning for CDNA
-- HipKittens - ThunderKittens for AMD. Tile programming abstraction for MI300X
+- [HipKittens](https://github.com/HazyResearch/HipKittens) - ThunderKittens for AMD. Tile programming abstraction for MI300X
 
 ### CDNA architecture
 
@@ -282,8 +282,8 @@ Recommended reading order:
 
 #### Tier 3
 
-- Medusa: Simple Framework for Accelerating LLM Generation - Multiple heads for parallel draft tokens
-- EAGLE: Speculative Sampling with Draft Model - Autoregressive draft prediction
+- [Medusa: Simple Framework for Accelerating LLM Generation](https://github.com/FasterDecoding/Medusa) - Multiple heads for parallel draft tokens
+- [EAGLE: Speculative Sampling with Draft Model](https://github.com/SafeAILab/EAGLE) - Autoregressive draft prediction
 - [Speculative Decoding Overview](https://docs.vllm.ai) - vLLM Docs. Implementation in vLLM
 
 ## LLM-Generated Kernels
