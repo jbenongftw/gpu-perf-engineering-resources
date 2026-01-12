@@ -2,7 +2,14 @@
 
 > A comprehensive guide to GPU kernel programming and optimization, following the structure of [Elicit's machine-learning-list](https://github.com/elicit/machine-learning-list). Curated for practitioners building high-performance AI systems.
 
-**Legend:** ✨ = Recently added | 🔥 = Community favorite | 📄 = Paper | 📝 = Blog/Tutorial | 🎥 = Video | 📚 = Book | 💻 = Code
+| Symbol | Meaning |
+|--------|---------|
+| 🔥 | Community favorite |
+| 📄 | Paper |
+| 📝 | Blog/Tutorial |
+| 🎥 | Video |
+| 📚 | Book |
+| 💻 | Code |
 
 ---
 
@@ -42,14 +49,12 @@
 📝 **NVIDIA Hopper Architecture In-Depth** - [developer.nvidia.com/blog](https://developer.nvidia.com/blog/nvidia-hopper-architecture-in-depth/)
 - TMA, Thread Block Clusters, Distributed Shared Memory, WGMMA
 
-📝 **Chips and Cheese: Blackwell** - [chipsandcheese.com](https://chipsandcheese.com/p/blackwell-nvidias-massive-gpu) ✨
-- Microbenchmarking analysis of GB202, memory latency comparisons
+📝 **Chips and Cheese: Blackwell** - [chipsandcheese.com](https://chipsandcheese.com/p/blackwell-nvidias-massive-gpu)- Microbenchmarking analysis of GB202, memory latency comparisons
 
 📄 **Dissecting the NVIDIA Hopper GPU Architecture** - [arxiv.org/abs/2402.13499](https://arxiv.org/abs/2402.13499)
 - Academic microbenchmarking of H100
 
-📄 **Dissecting the NVIDIA Blackwell Architecture** - [arxiv.org/abs/2507.10789](https://arxiv.org/abs/2507.10789) ✨
-- Microbenchmarks covering tcgen05, TMEM, 2SM MMA
+📄 **Dissecting the NVIDIA Blackwell Architecture** - [arxiv.org/abs/2507.10789](https://arxiv.org/abs/2507.10789)- Microbenchmarks covering tcgen05, TMEM, 2SM MMA
 
 ### Tier 3: Low-Level Details
 
@@ -75,8 +80,7 @@
 - [siboehm.com/articles/22/CUDA-MMM](https://siboehm.com/articles/22/CUDA-MMM)
 - The canonical starting tutorial. Covers tiling, shared memory, vectorized loads
 
-📝 **Inside NVIDIA GPUs: Anatomy of High-Performance Matmul Kernels** - Aleksa Gordić ✨
-- [aleksagordic.com/blog/matmul](https://www.aleksagordic.com/blog/matmul)
+📝 **Inside NVIDIA GPUs: Anatomy of High-Performance Matmul Kernels** - Aleksa Gordić- [aleksagordic.com/blog/matmul](https://www.aleksagordic.com/blog/matmul)
 - 47 figures. Covers PTX/SASS, wave quantization, ILP, roofline model, warp tiling
 
 📝 **Outperforming cuBLAS on H100: A Worklog** - cudaforfun 🔥
@@ -110,8 +114,7 @@
 📝 **New cuBLAS 12.0 Features** - [developer.nvidia.com/blog](https://developer.nvidia.com/blog/new-cublas-12-0-features-and-matrix-multiplication-performance-on-nvidia-hopper-gpus/)
 - Hopper-specific optimizations and performance
 
-📝 **cuBLAS 12.9 Floating Point Emulation** - [developer.nvidia.com/blog](https://developer.nvidia.com/blog/boosting-matrix-multiplication-speed-and-flexibility-with-nvidia-cublas-12-9/) ✨
-- FP32 emulation with BF16 tensor cores
+📝 **cuBLAS 12.9 Floating Point Emulation** - [developer.nvidia.com/blog](https://developer.nvidia.com/blog/boosting-matrix-multiplication-speed-and-flexibility-with-nvidia-cublas-12-9/)- FP32 emulation with BF16 tensor cores
 
 ---
 
@@ -137,8 +140,7 @@
 - [developer.nvidia.com/blog](https://developer.nvidia.com/blog/floating-point-8-an-introduction-to-efficient-lower-precision-ai-training/)
 - E4M3 vs E5M2 formats, scaling strategies
 
-📝 **Introducing NVFP4 for Low-Precision Inference** - NVIDIA ✨
-- [developer.nvidia.com/blog](https://developer.nvidia.com/blog/introducing-nvfp4-for-efficient-and-accurate-low-precision-inference/)
+📝 **Introducing NVFP4 for Low-Precision Inference** - NVIDIA- [developer.nvidia.com/blog](https://developer.nvidia.com/blog/introducing-nvfp4-for-efficient-and-accurate-low-precision-inference/)
 - Blackwell FP4 with microscaling (MXFP4)
 
 💻 **NVIDIA Transformer Engine** - [github.com/NVIDIA/TransformerEngine](https://github.com/NVIDIA/TransformerEngine)
@@ -150,12 +152,10 @@
 
 ### Tier 3: Blackwell-Specific
 
-📝 **Matrix Multiplication on Blackwell: Part 1** - Modular ✨
-- [modular.com/blog](https://www.modular.com/blog/matrix-multiplication-on-nvidias-blackwell-part-1-introduction)
+📝 **Matrix Multiplication on Blackwell: Part 1** - Modular- [modular.com/blog](https://www.modular.com/blog/matrix-multiplication-on-nvidias-blackwell-part-1-introduction)
 - tcgen05, TMEM, 2SM MMA programming
 
-📝 **Blackwell Pipelining with CuTeDSL** - Simon Veitner ✨
-- LinkedIn post on advanced Blackwell kernel patterns
+📝 **Blackwell Pipelining with CuTeDSL** - Simon Veitner- LinkedIn post on advanced Blackwell kernel patterns
 
 ---
 
@@ -171,8 +171,7 @@
 - [arxiv.org/abs/2307.08691](https://arxiv.org/abs/2307.08691)
 - Better parallelization, work partitioning
 
-📄 **FlashAttention-3: Fast and Accurate Attention with Asynchrony** - Dao et al. ✨
-- [arxiv.org/abs/2407.08608](https://arxiv.org/abs/2407.08608)
+📄 **FlashAttention-3: Fast and Accurate Attention with Asynchrony** - Dao et al.- [arxiv.org/abs/2407.08608](https://arxiv.org/abs/2407.08608)
 - Hopper-specific: warp specialization, WGMMA pipelining
 
 📄 **A Case Study in CUDA Kernel Fusion: FlashAttention-2 on Hopper** - Jay Shah et al.
@@ -185,8 +184,7 @@
 - [arxiv.org/abs/2309.06180](https://arxiv.org/abs/2309.06180)
 - Virtual memory for KV cache
 
-💻 **FlashInfer** - [github.com/flashinfer-ai/flashinfer](https://github.com/flashinfer-ai/flashinfer) ✨
-- Kernel library for LLM serving (MLSys 2025 Best Paper)
+💻 **FlashInfer** - [github.com/flashinfer-ai/flashinfer](https://github.com/flashinfer-ai/flashinfer)- Kernel library for LLM serving (MLSys 2025 Best Paper)
 - PagedAttention, FlashAttention-3, MLA support
 
 📝 **Accelerating Self-Attentions with FlashInfer**
@@ -243,13 +241,11 @@
 💻 **NVIDIA CUTLASS** - [github.com/NVIDIA/cutlass](https://github.com/NVIDIA/cutlass)
 - CUDA Templates for Linear Algebra Subroutines
 
-💻 **cuTile (CUDA Tile)** - [github.com/NVIDIA/cutile-python](https://github.com/NVIDIA/cutile-python) ✨
-- New tile-level programming model in CUDA 13.1
+💻 **cuTile (CUDA Tile)** - [github.com/NVIDIA/cutile-python](https://github.com/NVIDIA/cutile-python)- New tile-level programming model in CUDA 13.1
 
 ### Tier 3: Other DSLs
 
-💻 **TileLang** - [github.com/tile-ai/tilelang](https://github.com/tile-ai/tilelang) ✨
-- Composable tiled programming, 1075x speedup over PyTorch on H100
+💻 **TileLang** - [github.com/tile-ai/tilelang](https://github.com/tile-ai/tilelang)- Composable tiled programming, 1075x speedup over PyTorch on H100
 
 💻 **ThunderKittens** - Stanford Hazy Research
 - [github.com/HazyResearch/ThunderKittens](https://github.com/HazyResearch/ThunderKittens)
@@ -261,8 +257,7 @@
 📝 **MLIR GPU Dialect** - [mlir.llvm.org](https://mlir.llvm.org/)
 - Compiler infrastructure for heterogeneous compute
 
-💻 **Mojo** - [modular.com/mojo](https://www.modular.com/mojo) ✨
-- MLIR-based language targeting GPU/CPU, SIMD-first design
+💻 **Mojo** - [modular.com/mojo](https://www.modular.com/mojo)- MLIR-based language targeting GPU/CPU, SIMD-first design
 
 ---
 
@@ -295,8 +290,7 @@
 - [docs.nersc.gov](https://docs.nersc.gov/tools/performance/roofline/)
 - Arithmetic intensity, compute vs memory bound
 
-📝 **Understanding the Top-K CUDA Kernel with PTX** - alpindale ✨
-- [blog.alpindale.net](https://blog.alpindale.net/posts/top_k_cuda/)
+📝 **Understanding the Top-K CUDA Kernel with PTX** - alpindale- [blog.alpindale.net](https://blog.alpindale.net/posts/top_k_cuda/)
 - 10x speedup over torch.topk, PTX-level optimization
 
 ### Tier 3: Advanced Topics
@@ -305,14 +299,12 @@
 - [developer.nvidia.com/blog](https://developer.nvidia.com/blog/cuda-graphs/)
 - Batch kernel launches, 5x speedup for small kernels
 
-📄 **Kernel Batching with CUDA Graphs** - [arxiv.org/abs/2501.09398](https://arxiv.org/abs/2501.09398) ✨
-- Optimal batch sizes (50-100 nodes), 1.4x improvement
+📄 **Kernel Batching with CUDA Graphs** - [arxiv.org/abs/2501.09398](https://arxiv.org/abs/2501.09398)- Optimal batch sizes (50-100 nodes), 1.4x improvement
 
 📝 **Warp Specialization in PyTorch** - [pytorch.org/blog](https://pytorch.org/blog/warp-specialization/)
 - Producer-consumer patterns, async execution
 
-📄 **Tawa: Automatic Warp Specialization** - [arxiv.org/abs/2510.14719](https://arxiv.org/abs/2510.14719) ✨
-- Matches FlashAttention-3 performance with less effort
+📄 **Tawa: Automatic Warp Specialization** - [arxiv.org/abs/2510.14719](https://arxiv.org/abs/2510.14719)- Matches FlashAttention-3 performance with less effort
 
 ---
 
@@ -324,20 +316,17 @@
 - [rocm.blogs.amd.com](https://rocm.blogs.amd.com/artificial-intelligence/triton/README.html)
 - Triton for MI300X
 
-📝 **Triton Kernel Optimizations on AMD** - AMD ROCm Blog ✨
-- [rocm.blogs.amd.com](https://rocm.blogs.amd.com/software-tools-optimization/kernel-development-optimizations-with-triton-on-/README.html)
+📝 **Triton Kernel Optimizations on AMD** - AMD ROCm Blog- [rocm.blogs.amd.com](https://rocm.blogs.amd.com/software-tools-optimization/kernel-development-optimizations-with-triton-on-/README.html)
 - Performance tuning for CDNA
 
-💻 **HipKittens** - ThunderKittens for AMD ✨
-- Tile programming abstraction for MI300X
+💻 **HipKittens** - ThunderKittens for AMD- Tile programming abstraction for MI300X
 
 ### Tier 2: CDNA Architecture
 
 📝 **Chips and Cheese: AMD CDNA 3** - [chipsandcheese.com](https://chipsandcheese.com)
 - MI300X architecture analysis, chiplet design
 
-📝 **Chips and Cheese: RDNA 4** - [chipsandcheese.com](https://chipsandcheese.com/p/amds-rdna4-gpu-architecture-at-hot) ✨
-- Dynamic register allocation, cache strategies
+📝 **Chips and Cheese: RDNA 4** - [chipsandcheese.com](https://chipsandcheese.com/p/amds-rdna4-gpu-architecture-at-hot)- Dynamic register allocation, cache strategies
 
 📝 **AMD RDNA 3 Microbenchmarking** - Chips and Cheese
 - [chipsandcheese.com](https://chipsandcheese.com/p/microbenchmarking-amds-rdna-3-graphics-architecture)
@@ -348,8 +337,7 @@
 - [towardsdatascience.com](https://towardsdatascience.com/the-rise-of-pallas-unlocking-tpu-potential-with-custom-kernels-67be10ab846a/)
 - JAX Pallas for TPU programming
 
-📝 **vLLM TPU: Unified JAX Backend** - vLLM Blog ✨
-- [blog.vllm.ai](https://blog.vllm.ai/2025/10/16/vllm-tpu.html)
+📝 **vLLM TPU: Unified JAX Backend** - vLLM Blog- [blog.vllm.ai](https://blog.vllm.ai/2025/10/16/vllm-tpu.html)
 - 20% throughput improvement via JAX primitives
 
 📝 **Building Production AI on Cloud TPUs with JAX** - Google
@@ -410,28 +398,22 @@
 - [arxiv.org/abs/2502.10517](https://arxiv.org/abs/2502.10517)
 - 250 PyTorch workloads, fast_p metric
 
-💻 **KernelLLM** - Meta/Facebook ✨
-- [huggingface.co/facebook/KernelLLM](https://huggingface.co/facebook/KernelLLM)
+💻 **KernelLLM** - Meta/Facebook- [huggingface.co/facebook/KernelLLM](https://huggingface.co/facebook/KernelLLM)
 - 8B model trained on 25k PyTorch→Triton pairs, beats GPT-4o
 
-📄 **TritonBench** - [arxiv.org/abs/2502.14752](https://arxiv.org/abs/2502.14752) ✨
-- 184 real-world Triton operators from GitHub
+📄 **TritonBench** - [arxiv.org/abs/2502.14752](https://arxiv.org/abs/2502.14752)- 184 real-world Triton operators from GitHub
 
 ### Tier 2: Agentic Approaches
 
-📝 **The AI CUDA Engineer** - Sakana AI ✨
-- [sakana.ai/ai-cuda-engineer](https://sakana.ai/ai-cuda-engineer/)
+📝 **The AI CUDA Engineer** - Sakana AI- [sakana.ai/ai-cuda-engineer](https://sakana.ai/ai-cuda-engineer/)
 - Evolutionary optimization, 10-100x speedups (with caveats about benchmark gaming)
 
-📄 **AlphaEvolve** - Google DeepMind ✨
-- [deepmind.google](https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/)
+📄 **AlphaEvolve** - Google DeepMind- [deepmind.google](https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/)
 - 32.5% FlashAttention speedup, 23% GEMM speedup
 
-📄 **Kevin: Multi-Turn RL for CUDA Kernels** - [arxiv.org/abs/2507.11948](https://arxiv.org/abs/2507.11948) ✨
-- First multi-turn RL model, 82% correctness (vs 56% base)
+📄 **Kevin: Multi-Turn RL for CUDA Kernels** - [arxiv.org/abs/2507.11948](https://arxiv.org/abs/2507.11948)- First multi-turn RL model, 82% correctness (vs 56% base)
 
-📄 **CUDA-L1: Contrastive RL for CUDA Optimization** - [arxiv.org/abs/2507.14111](https://arxiv.org/abs/2507.14111) ✨
-- 3.12x average speedup on KernelBench
+📄 **CUDA-L1: Contrastive RL for CUDA Optimization** - [arxiv.org/abs/2507.14111](https://arxiv.org/abs/2507.14111)- 3.12x average speedup on KernelBench
 
 ### Tier 3: Research Papers
 
@@ -441,8 +423,7 @@
 
 📄 **CUDA-LLM: LLMs Can Write Efficient CUDA Kernels** - [arxiv.org/abs/2506.09092](https://arxiv.org/abs/2506.09092)
 
-📝 **GEAK: Triton Kernel AI Agent** - AMD ROCm ✨
-- [rocm.blogs.amd.com](https://rocm.blogs.amd.com/software-tools-optimization/triton-kernel-ai/README.html)
+📝 **GEAK: Triton Kernel AI Agent** - AMD ROCm- [rocm.blogs.amd.com](https://rocm.blogs.amd.com/software-tools-optimization/triton-kernel-ai/README.html)
 - 51% accuracy, 1.81x speedup on MI300X
 
 ---
