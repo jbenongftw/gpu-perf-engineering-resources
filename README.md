@@ -1,6 +1,6 @@
 # GPU Performance Engineering for AI Infrastructure
 
-> A comprehensive guide to GPU kernel programming and optimization, following the structure of [Elicit's machine-learning-list](https://github.com/elicit/machine-learning-list). Curated for practitioners building high-performance AI systems.
+> A comprehensive guide to GPU kernel programming and optimization. Curated for practitioners building high-performance AI systems.
 
 | Symbol | Meaning |
 |--------|---------|
