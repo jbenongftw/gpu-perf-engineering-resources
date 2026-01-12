@@ -62,8 +62,6 @@ Recommended reading order:
   - [Communities](#communities)
 - [Maintainer](#maintainer)
 
----
-
 ## Fundamentals
 
 ### Introduction to GPU programming
@@ -92,8 +90,6 @@ Recommended reading order:
 - [DocumentSASS](https://github.com/0xD0GF00D/DocumentSASS) - Unofficial SASS instruction documentation extracted from nvdisasm
 - [JEB SASS Disassembler](https://www.pnfsoftware.com/blog/reversing-nvidia-cuda-sass-code/) - Reverse engineering GPU binaries (Volta → Blackwell)
 
----
-
 ## Matrix Multiplication
 
 ### Essential tutorials
@@ -121,8 +117,6 @@ Recommended reading order:
 - [New cuBLAS 12.0 Features](https://developer.nvidia.com/blog/new-cublas-12-0-features-and-matrix-multiplication-performance-on-nvidia-hopper-gpus/) - Hopper-specific optimizations and performance
 - [cuBLAS 12.9 Floating Point Emulation](https://developer.nvidia.com/blog/boosting-matrix-multiplication-speed-and-flexibility-with-nvidia-cublas-12-9/) - FP32 emulation with BF16 tensor cores
 
----
-
 ## Tensor Cores & Mixed Precision
 
 ### Tensor core fundamentals
@@ -148,8 +142,6 @@ Recommended reading order:
 
 - [Matrix Multiplication on Blackwell: Part 1](https://www.modular.com/blog/matrix-multiplication-on-nvidias-blackwell-part-1-introduction) - Modular. tcgen05, TMEM, 2SM MMA programming
 - Blackwell Pipelining with CuTeDSL - Simon Veitner. LinkedIn post on advanced Blackwell kernel patterns
-
----
 
 ## Attention & Memory-Bound Kernels
 
@@ -178,8 +170,6 @@ Recommended reading order:
 - GQA: Training Generalized Multi-Query Transformer Models - Google. Grouped Query Attention for memory efficiency
 - Multi-Head Latent Attention (MLA) - DeepSeek. Low-rank KV compression, 8x cache reduction
 - [A Survey on LLM Acceleration based on KV Cache Management](https://arxiv.org/abs/2412.19442) - Comprehensive taxonomy of KV cache techniques
-
----
 
 ## Compiler & DSL Approaches
 
@@ -211,8 +201,6 @@ Recommended reading order:
 - [MLIR GPU Dialect](https://mlir.llvm.org/) - Compiler infrastructure for heterogeneous compute
 - [Mojo](https://www.modular.com/mojo) - MLIR-based language targeting GPU/CPU, SIMD-first design
 
----
-
 ## Profiling & Optimization
 
 ### NVIDIA tools
@@ -241,8 +229,6 @@ Recommended reading order:
 - [Warp Specialization in PyTorch](https://pytorch.org/blog/warp-specialization/) - Producer-consumer patterns, async execution
 - [Tawa: Automatic Warp Specialization](https://arxiv.org/abs/2510.14719) - Matches FlashAttention-3 performance with less effort
 
----
-
 ## AMD & Alternative Hardware
 
 ### ROCm fundamentals
@@ -268,8 +254,6 @@ Recommended reading order:
 - [The Rise of Pallas: Custom TPU Kernels](https://towardsdatascience.com/the-rise-of-pallas-unlocking-tpu-potential-with-custom-kernels-67be10ab846a/) - Towards Data Science. JAX Pallas for TPU programming
 - [vLLM TPU: Unified JAX Backend](https://blog.vllm.ai/2025/10/16/vllm-tpu.html) - vLLM Blog. 20% throughput improvement via JAX primitives
 - [Building Production AI on Cloud TPUs with JAX](https://docs.cloud.google.com/tpu/docs/jax-ai-stack) - Google
-
----
 
 ## Production Inference Systems
 
@@ -297,8 +281,6 @@ Recommended reading order:
 - Medusa: Simple Framework for Accelerating LLM Generation - Multiple heads for parallel draft tokens
 - EAGLE: Speculative Sampling with Draft Model - Autoregressive draft prediction
 - [Speculative Decoding Overview](https://docs.vllm.ai) - vLLM Docs. Implementation in vLLM
-
----
 
 ## LLM-Generated Kernels
 
@@ -328,8 +310,6 @@ Recommended reading order:
 - [CUDA-LLM: LLMs Can Write Efficient CUDA Kernels](https://arxiv.org/abs/2506.09092)
 - [GEAK: Triton Kernel AI Agent](https://rocm.blogs.amd.com/software-tools-optimization/triton-kernel-ai/README.html) - AMD ROCm. 51% accuracy, 1.81x speedup on MI300X
 
----
-
 ## Distributed & Multi-GPU
 
 ### Communication primitives
@@ -357,8 +337,6 @@ Recommended reading order:
 - [Kernel Fusion in CUDA](https://www.vrushankdes.ai/diffusion-policy-inference-optimization/part-vi---kernel-fusion-in-cuda) - vrushankdes.ai. Vertical vs horizontal fusion, U-Net optimization
 - [Automatic Horizontal Fusion for GPU Kernels](https://www.cs.toronto.edu/ecosystem/papers/CGO_22/Horizontal_Fusion.pdf) - CMU. 12-55% speedup via parallel kernel execution
 
----
-
 ## The Big Picture
 
 ### Industry analysis
@@ -377,8 +355,6 @@ Recommended reading order:
 
 - [GPU Mode Discord](https://discord.gg/gpumode) - 23k+ members, weekly lectures, kernel leaderboard
 - [GPU Mode Resource Stream](https://github.com/gpu-mode/resource-stream) - Curated CUDA/GPU learning materials
-
----
 
 ## Contributing
 
