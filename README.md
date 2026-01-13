@@ -343,11 +343,6 @@ Recommended reading order:
 
 ## The Big Picture
 
-### Industry analysis
-
-- The CUDA Moat Debate - Various authors. Is NVIDIA's software ecosystem an insurmountable advantage?
-- GPU Poor: Why Cloud Costs Matter - Various. Economic analysis of GPU compute
-
 ### Practitioner blogs
 
 - [Michal Pitr - From Scratch](https://michalpitr.substack.com) - GPU programming, inference optimization
